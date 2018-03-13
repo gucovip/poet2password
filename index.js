@@ -58,5 +58,5 @@ console.log(resultText)
 if (os.platform() === 'darwin') {
   pbcopy(resultText)
 } else {
-  require('child_process').spawn('clip').stdin.end(util.inspect(resultText))
+  require('child_process').spawn('clip').stdin.end(util.inspect(resultText.replace('\n','\r\n')))
 }
