@@ -6,7 +6,6 @@
 ## 单行生成
 * 执行命令 yarn dev {单行诗歌诗歌} ，即可
 ## 规则
-* 参照，略有变化
-* [Rules](https://github.com/bingoohuang/blog/issues/22)
-## 说明
-* 由于规则过于复杂，记忆效果差，仅选用易记部分，进行生成。
+* 参照 [Rules](https://github.com/bingoohuang/blog/issues/22) 
+* 规则不完全一直，具体规则可以查看 rule.js 文件
+* 温馨提示：由于规则过于复杂，记忆效果差，为了密码的前后一致性，不要在重要的场合人脑输入，以防忘记密码产生不必要的麻烦！
