@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Poet
 // @namespace    https://github.com/raiyeeeric/poet/blob/master/Poet.user.js
-// @version      1.0.1
+// @version      1.0.2
 // @description  try to take over the world!
 // @author       You
 // @match        *://*.raiyee.cn
@@ -240,10 +240,6 @@
                 e.clearSelection();
                 $("#copyPoet").hide()
                 window.location = '/home'
-                setTimeout(()=>{
-                    alert(111)
-                },1000)
-
             });
             clipboard.on('error', function(e) {
                 $("#copyPoet").hide()
