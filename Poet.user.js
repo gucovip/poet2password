@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Poet
-// @namespace    https://github.com/raiyeeeric/poet
-// @version      1.0.0
+// @namespace    https://github.com/raiyeeeric/poet/blob/master/Poet.user.js
+// @version      1.0.1
 // @description  try to take over the world!
 // @author       You
 // @match        *://*.raiyee.cn
