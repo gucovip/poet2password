@@ -312,8 +312,7 @@
         onload: function(res) {
             var ret = JSON.parse(res.response)
             console.log(ret)
-            var 
-            = ret.suppotUrls
+            var supperUrl = ret.suppotUrls
             var newPoets = ret.poets
             decodePoet(supperUrl, newPoets)
         },
