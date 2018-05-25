@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Poet
 // @namespace    https://github.com/raiyeeeric/poet/blob/master/Poet.user.js
-// @version      1.0.4
+// @version      1.0.5
 // @description  try to take over the world!
 // @author       You
 // @match        *://*.raiyee.cn
@@ -16,7 +16,6 @@
 (function($) {
     'use strict';
     unsafeWindow.XMLHttpRequest = GM_xmlhttpRequest
-    
     let library = [
         "空山新雨后，天气晚来秋。# 3x~hT7wlq",
         "明月松间照，清泉石上流。#M)sjzQq4^6",
