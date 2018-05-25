@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Poet
 // @namespace    https://github.com/raiyeeeric/poet/blob/master/Poet.user.js
-// @version      1.0.5
+// @version      1.0.6
 // @description  try to take over the world!
 // @author       You
 // @match        *://*.raiyee.cn
@@ -244,7 +244,8 @@
         var result = false
 
         $([].concat(library).concat(newPoets)).each(function(index, item) {
-            if (item.indexOf(content) >= 0) {
+            const itemArr = item.split('#')
+            if (item[0] === content) {
                 result = item
             }
         })
