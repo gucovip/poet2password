@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Poet
 // @namespace    https://github.com/raiyeeeric/poet/blob/master/Poet.user.js
-// @version      1.0.2
+// @version      1.0.3
 // @description  try to take over the world!
 // @author       You
 // @match        *://*.raiyee.cn
@@ -16,6 +16,7 @@
 (function($) {
     'use strict';
     unsafeWindow.XMLHttpRequest = GM_xmlhttpRequest
+    
     let library = [
         "空山新雨后，天气晚来秋。# 3x~hT7wlq",
         "明月松间照，清泉石上流。#M)sjzQq4^6",
@@ -205,7 +206,37 @@
         "在天愿作比翼鸟，在地愿为连理枝。#@Tyzbyn@Dywllz1",
         "天长地久有时尽，此恨绵绵无绝期。#T|d9y4jChm~!j7",
         "独坐池塘如虎踞，绿杨树下养精神。#Dzctrhj6Y|_yjs",
-        "春来我不先开口，哪个虫儿敢作声？#Cl5!xkk?Gc2gzs"
+        "春来我不先开口，哪个虫儿敢作声？#Cl5!xkk?Gc2gzs",
+        "碧玉妆成一树高，万条垂下绿丝绦。#Byzc1|^Wtc_6~d",
+        "不知细叶谁裁出，二月春风似剪刀。#!Zxy?cc2)C~4j(",
+        "两个黄鹂鸣翠柳，一行白鹭上青天。#2ghlmcl1hbl^qt",
+        "窗含西岭千秋雪，门泊东吴万里船。#Ch{0qq*Mb}5wlc",
+        "清明时节雨纷纷，路上行人欲断魂。#Qm4j~f~6^xrydh",
+        "借问酒家何处有，牧童遥指杏花村。#J?9+?cyMtyzx*c",
+        "锦城丝管日纷纷，半入江风半入云。#Jc4g*f~B&gt;j~b&gt;~",
+        "此曲只应天上有，人间能得几回闻。#C7zyt^yRjnd?hw",
+        "朱雀桥边野草花，乌衣巷口夕阳斜。#Zqqbyc*W1xkx1/",
+        "旧时王谢堂前燕，飞入寻常百姓家。#94wxtqyF&gt;xc%x+",
+        "梅子黄时日日晴，小溪泛尽却山行。#Mzh4*~q&lt;xfjq3x",
+        "绿阴不减来时路，添得黄鹂四五声。#6y!-l46Tdhl45s",
+        "泉眼无声惜细流，树阴照水爱晴柔。#Qy!sxx6|yz~2qr",
+        "小荷才露尖尖角，早有蜻蜓立上头。#&lt;hc6j~jZyqtl^t",
+        "银烛秋光冷画屏，轻罗小扇扑流萤。#YzqglhpQl&lt;3p6y",
+        "天阶夜色凉如水，坐看牵牛织女星。#Tjyslr~Zkqnz0*",
+        "绿蚁新醅酒，红泥小火炉。#61xp9Hn&lt;hl",
+        "晚来天欲雪，能饮一杯无？#Wlty*Ny1b!",
+        "天高云淡，望断南飞雁。#Tg~dWd_fy4",
+        "不到长城非好汉，屈指行程二万。#!d|c!hhQzxc2w",
+        "六盘山上高峰，红旗漫卷西风。#6p3^gfHqmj{~",
+        "今日长缨在手，何时缚住苍龙？#J*cy@s?4fzc$",
+        "好雨知时节， 当春乃发生。#H~z4jDcnfs",
+        "随风潜入夜， 润物细无声。#@~q&gt;yRwx0s",
+        "野径云俱黑， 江船火独明。#Yj~jhJch1m",
+        "晓看红湿处， 花重锦官城。#Xkh4c*`jgc",
+        "种豆南山下，草盛豆苗稀。#Z,_3_Cs,mx",
+        "晨兴理荒秽，带月荷锄归。#CxlhhD)chg1",
+        "道狭草木长，夕露沾我衣。#@xcmcX6z51",
+        "衣沾不足惜，但使愿无违。#1z!zxD4y!@"
     ]
 
     let newPoets = []
