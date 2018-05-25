@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Poet
 // @namespace    https://github.com/raiyeeeric/poet/blob/master/Poet.user.js
-// @version      1.0.3
+// @version      1.0.4
 // @description  try to take over the world!
 // @author       You
 // @match        *://*.raiyee.cn
@@ -291,7 +291,7 @@
     }
 
     function decodePoet(supperUrl, poets) {
-        if (!supperUrl.includes(location.href)) return false
+        // if (!supperUrl.includes(location.href)) return false
         initCopy()
         var title = $($('div')[0]).find('div')[0].innerText
         if (poets) newPoets = poets
@@ -312,7 +312,8 @@
         onload: function(res) {
             var ret = JSON.parse(res.response)
             console.log(ret)
-            var supperUrl = ret.suppotUrls
+            var 
+            = ret.suppotUrls
             var newPoets = ret.poets
             decodePoet(supperUrl, newPoets)
         },
