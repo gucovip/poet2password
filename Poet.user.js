@@ -4,7 +4,13 @@
 // @version      1.0.7
 // @description  try to take over the world!
 // @author       You
-// @match        *://*.raiyee.cn
+// @match        *://test.sql.raiyee.cn
+// @match        *://redis.raiyee.cn
+// @match        *://redisn.raiyee.cn
+// @match        *://ip.raiyee.cn
+// @match        *://devops.raiyee.cn
+// @match        *://devopsn.raiyee.cn
+// @match        *://sql.raiyee.cn
 // @run-at            document-end
 // @grant       GM_setClipboard
 // @grant       GM_xmlhttpRequest
