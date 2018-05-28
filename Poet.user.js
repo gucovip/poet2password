@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Poet
 // @namespace    https://github.com/raiyeeeric/poet/blob/master/Poet.user.js
-// @version      1.0.8
+// @version      1.0.9
 // @description  try to take over the world!
 // @author       You
 // @match        *://test.sql.raiyee.cn
@@ -16,7 +16,7 @@
 // @grant       GM_xmlhttpRequest
 // @grant             unsafeWindow
 // @require https://cdn.bootcss.com/jquery/2.1.3/jquery.min.js
-// @require https://unpkg.com/clipboard@2.0.0/dist/clipboard.min.js
+// @require https://cdn.bootcss.com/clipboard.js/2.0.1/clipboard.min.js
 // ==/UserScript==
 
 (function($) {
